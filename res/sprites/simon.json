@@ -1,0 +1,90 @@
+{
+	"frames": {
+		"simon 0.aseprite": {
+			"frame": { "x": 0, "y": 0, "w": 16, "h": 32 },
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 32 },
+			"sourceSize": { "w": 16, "h": 32 },
+			"duration": 125
+		},
+		"simon 1.aseprite": {
+			"frame": { "x": 16, "y": 0, "w": 16, "h": 32 },
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 32 },
+			"sourceSize": { "w": 16, "h": 32 },
+			"duration": 125
+		},
+		"simon 2.aseprite": {
+			"frame": { "x": 32, "y": 0, "w": 16, "h": 32 },
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 32 },
+			"sourceSize": { "w": 16, "h": 32 },
+			"duration": 125
+		},
+		"simon 3.aseprite": {
+			"frame": { "x": 48, "y": 0, "w": 16, "h": 32 },
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 32 },
+			"sourceSize": { "w": 16, "h": 32 },
+			"duration": 125
+		},
+		"simon 4.aseprite": {
+			"frame": { "x": 64, "y": 0, "w": 16, "h": 32 },
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 32 },
+			"sourceSize": { "w": 16, "h": 32 },
+			"duration": 200
+		},
+		"simon 5.aseprite": {
+			"frame": { "x": 80, "y": 0, "w": 16, "h": 32 },
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 32 },
+			"sourceSize": { "w": 16, "h": 32 },
+			"duration": 200
+		},
+		"simon 6.aseprite": {
+			"frame": { "x": 96, "y": 0, "w": 16, "h": 32 },
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 32 },
+			"sourceSize": { "w": 16, "h": 32 },
+			"duration": 200
+		},
+		"simon 7.aseprite": {
+			"frame": { "x": 112, "y": 0, "w": 16, "h": 32 },
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 32 },
+			"sourceSize": { "w": 16, "h": 32 },
+			"duration": 200
+		}
+	},
+	"meta": {
+		"app": "https://github.com/LibreSprite/LibreSprite/",
+		"version": "1.0-dev",
+		"image": "/home/gabriellv/dev/c/castlevaniaSDL/res/sprites/simon.png",
+		"format": "RGBA8888",
+		"size": { "w": 128, "h": 32 },
+		"scale": "1",
+		"frameTags": [
+			{ "name": "Idle", "from": 0, "to": 0, "direction": "forward" },
+			{ "name": "Walking", "from": 0, "to": 2, "direction": "pingpong" },
+			{ "name": "Duck", "from": 3, "to": 3, "direction": "forward" },
+			{ "name": "Stairs Up", "from": 4, "to": 5, "direction": "forward" },
+			{
+				"name": "Stairs Down",
+				"from": 5,
+				"to": 6,
+				"direction": "forward"
+			},
+			{ "name": "Damage", "from": 7, "to": 7, "direction": "forward" }
+		],
+		"layers": [{ "name": "Simon", "opacity": 255, "blendMode": "normal" }]
+	}
+}

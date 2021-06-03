@@ -1,0 +1,8 @@
+#!/bin/sh
+
+cd /home/gabriellv/dev/c/castlevaniaSDL/
+echo "Deletando build..."
+rm -r build/
+echo "Configurando cmake..."
+cmake -S . -B build/
+echo "Tudo pronto."

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cd /home/gabriellv/dev/c/castlevaniaSDL/build/src/
+make
+./app
