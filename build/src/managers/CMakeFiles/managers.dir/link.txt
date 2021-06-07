@@ -1,2 +1,0 @@
-/usr/bin/ar qc libmanagers.a CMakeFiles/managers.dir/InputManager.cpp.o CMakeFiles/managers.dir/TextureManager.cpp.o CMakeFiles/managers.dir/AnimationManager.cpp.o
-/usr/bin/ranlib libmanagers.a

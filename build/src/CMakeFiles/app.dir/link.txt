@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/app.dir/main.cpp.o CMakeFiles/app.dir/Game.cpp.o -o app  entities/libentities.a managers/libmanagers.a physics/libphysics.a utilities/libutilities.a /usr/lib/libSDL2.so /usr/lib/libSDL2_image.so ../jsoncpp/dist/libjsoncpp.a 
