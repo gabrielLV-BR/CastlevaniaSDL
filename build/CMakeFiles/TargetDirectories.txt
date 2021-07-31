@@ -1,8 +1,0 @@
-C:/Users/gabri/dev/c/CastlevaniaSDL/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/gabri/dev/c/CastlevaniaSDL/build/CMakeFiles/ZERO_CHECK.dir
-C:/Users/gabri/dev/c/CastlevaniaSDL/build/src/CMakeFiles/app.dir
-C:/Users/gabri/dev/c/CastlevaniaSDL/build/src/dependencies/CMakeFiles/dependencies.dir
-C:/Users/gabri/dev/c/CastlevaniaSDL/build/src/entities/CMakeFiles/entities.dir
-C:/Users/gabri/dev/c/CastlevaniaSDL/build/src/managers/CMakeFiles/managers.dir
-C:/Users/gabri/dev/c/CastlevaniaSDL/build/src/physics/CMakeFiles/physics.dir
-C:/Users/gabri/dev/c/CastlevaniaSDL/build/src/utilities/CMakeFiles/utilities.dir

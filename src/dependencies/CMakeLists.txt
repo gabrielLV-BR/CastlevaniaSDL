@@ -6,7 +6,7 @@ add_library(
 target_link_libraries(
 	${PROJECT_NAME} 
 	dependencies
-	SDL2/lib/x64/SDL2
-	SDL2/lib/x64/SDL2main
-	SDL2/lib/x64/SDL2_image
+	SDL2/lib/x64/SDL2.lib
+	SDL2/lib/x64/SDL2_main.lib
+	SDL2/lib/x64/SDL2_image.lib
 )

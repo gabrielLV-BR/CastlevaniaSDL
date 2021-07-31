@@ -5,7 +5,7 @@
 #if defined _WIN64 || defined _WIN32
 
 #include "dependencies/SDL2/include/SDL.h"
-#include "dependencies/SDL2/include/SDLmain.h"
+#include "dependencies/SDL2/include/SDL_main.h"
 #include "dependencies/SDL2/include/SDL_image.h"
 
 #endif

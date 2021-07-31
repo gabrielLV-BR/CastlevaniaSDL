@@ -2,7 +2,7 @@
 
 #define INPUTMANAGER_H
 
-#include <SDL2/SDL.h>
+#include "../Libs.h"
 #include <unordered_map>
 #include "../utilities/Vector.hpp"
 

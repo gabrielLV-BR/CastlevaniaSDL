@@ -3,7 +3,7 @@
 #define TEXTUREMANAGER_H
 
 #include "../Game.hpp"
-#include <SDL2/SDL.h>
+#include "../Libs.h"
 
 class TextureManager 
 {

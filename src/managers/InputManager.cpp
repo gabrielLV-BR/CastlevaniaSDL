@@ -1,5 +1,5 @@
 #include "InputManager.hpp"
-#include <SDL2/SDL.h>
+#include "../Libs.h"
 
 InputManager::InputManager()
 {

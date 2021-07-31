@@ -13,9 +13,7 @@ add_subdirectory(managers)
 add_subdirectory(physics)
 add_subdirectory(utilities)
 
-if(WIN32)
-  target_link_libraries(${PROJECT_NAME} ${dependencies})
-else()
+if(NOT WIN32)
   set(CMAKE_MODULE_PATH "/usr/share/cmake/Modules/")
 
   find_library(sdl2 SDL2)

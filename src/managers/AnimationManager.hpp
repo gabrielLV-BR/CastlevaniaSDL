@@ -1,7 +1,7 @@
 #ifndef ANIMATIONMANAGER_H
 #define ANIMATIONMANAGER_H
 
-#include <SDL2/SDL.h>
+#include "../Libs.h"
 #include <unordered_map>
 #include <string>
 #include <vector>

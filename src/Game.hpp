@@ -2,7 +2,7 @@
 
 #define GAME_H
 
-#include <SDL2/SDL.h>
+#include "Libs.h"
 #include "managers/InputManager.hpp"
 #include "utilities/TileMap.hpp"
 

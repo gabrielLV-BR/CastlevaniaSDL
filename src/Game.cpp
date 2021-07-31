@@ -1,5 +1,4 @@
-#include <SDL2/SDL.h>
-#include <SDL2/SDL_image.h>
+#include "Libs.h"
 
 #include "Game.hpp"
 #include "entities/Player.hpp"

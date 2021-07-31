@@ -1,8 +1,7 @@
 #ifndef JSONLOADER_H
 #define JSONLOADER_H
 
-#include <json/json.h>
-#include <json/value.h>
+#include "../Libs.h"
 
 namespace JSONLoader
 {

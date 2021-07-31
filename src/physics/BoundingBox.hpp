@@ -1,7 +1,7 @@
 #ifndef BOUNDINGBOX_H
 #define BOUNDINGBOX_H
 
-#include <SDL2/SDL.h>
+#include "../Libs.h"
 #include "../utilities/Vector.hpp"
 
 struct BoundingBox

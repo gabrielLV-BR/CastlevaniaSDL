@@ -158,10 +158,12 @@ bool Player::IsGrounded() const
 
 BoundingBox Player::GetBoundingBox()
 {
-  BoundingBox BoundingBox = {
-    playerRects.position.x,
-    playerRects.position.y,
-    playerRects.position.w,
-    playerRects.position.h / (isCrouched + 1),
+  BoundingBox boundingBox = {
+    (float)playerRects.position.x,
+    (float)playerRects.position.y,
+    (float)playerRects.position.w,
+    (float)(playerRects.position.h / (isCrouched + 1)),
   };
+
+  return boundingBox;
 }

@@ -1077,7 +1077,7 @@ public:
   bool isMember(const String& key) const;
   /// Same as isMember(String const& key)const
   bool isMember(const char* begin, const char* end) const;
-
+    
   /// \brief Return a list of the member names.
   ///
   /// If null, return an empty list.

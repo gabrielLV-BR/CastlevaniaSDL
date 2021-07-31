@@ -1,5 +1,6 @@
 #include "Vector.hpp"
 #include "../utilities/Functions.hpp"
+#include <math.h>
 
 Vector2D Vector2D::Copy()
 {
@@ -116,7 +117,7 @@ float Vector2D::GetAngleTo(const Vector2D& vec) const
 {
   float dot = DotProduct(vec);
 
-  float angle = acos(dot / (GetMag() / vec.GetMag())) * 180 / M_PI;
+  float angle = acos(dot / (GetMag() / vec.GetMag())) * 180 / 3.14159265;
   return angle;
 }
 
